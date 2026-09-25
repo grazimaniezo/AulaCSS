@@ -48,4 +48,22 @@ h3
 .Sublinhado
 {
     text-decoration: underline;
+} 
+
+.destaque 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.letracursiva
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.Google
+{
+    font-family: 'Alex Brush';
+    font-style: 20px;
+    color: rgb(119, 11, 93);
 }
