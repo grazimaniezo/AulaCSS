@@ -1,37 +1,36 @@
 body
 {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 
 h1
 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    background-color: rgb(128, 0, 90);
+    color : white;
+    background-color: #830076;
     text-align: center;
-    margin: 0;
+    margin : 0;
     padding: 20px;
 }
 
 .conteudo
 {
     font-size: 20px;
-    margin: 10px;
+    margin : 10px;
     padding: 10px;
 }
 
 .subtitulo
 {
     font-size: 30px;
-    color: rgb(128, 0, 90);
+    color : #960000;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .exemplo1
 {
-    border: 1px solid rgb(128, 0, 90);
+    border: 1px solid #960000;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
@@ -45,8 +44,8 @@ h1
 
 .inicio
 {
-    display: flex;
-    justify-content: flex-start;
+display: flex;
+justify-content: flex-start;
 }
 
 .fim
@@ -65,4 +64,33 @@ h1
 {
     display: flex;
     justify-content: space-between;
+}
+
+
+.exemplo2
+{
+    border: 1px solid #9a0067;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    height: 300px;
+}
+
+.meio
+{
+    display: flex;
+    align-items: center;
+}
+
+.topo
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.rodape
+{
+    display: flex;
+    align-items: flex-end;
 }
